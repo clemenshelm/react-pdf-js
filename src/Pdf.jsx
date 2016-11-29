@@ -239,7 +239,7 @@ class Pdf extends React.Component {
     const { page } = this.state;
     return page ?
       <canvas ref={(c) => { this.canvas = c; }} /> :
-      loading || <div>Loading PDF...</div>;
+      loading || <div>Loading Bill...</div>;
   }
 }
 
